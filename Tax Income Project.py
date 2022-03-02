@@ -17,3 +17,5 @@ print('\nThe income tax is:', IncomeTax)
 print('\n\nGross income:', GrossInc,
       ('\nNumber of Depedents:'), NumD, 
       ('\nTax income:'), IncomeTax)
+
+input('PRESS ENTER TO END')
