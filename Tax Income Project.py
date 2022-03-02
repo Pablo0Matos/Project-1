@@ -8,7 +8,6 @@ NumD = int(input('Enter the number of dependents: '))
 
 D_Deduction = DD * NumD
 GI = GrossInc - SD #CurrentIncome
-
 IncomeTax = (GI - D_Deduction) * TR
 
 print('\n\nThe gross income:', GrossInc,
