@@ -12,10 +12,8 @@ GI = GrossInc - SD #CurrentIncome
 
 IncomeTax = (GI - D_Deduction) * TR
 
-print('\nThe income tax is:', IncomeTax)
-
-print('\n\nGross income:', GrossInc,
-      ('\nNumber of Depedents:'), NumD, 
-      ('\nTax income:'), IncomeTax)
+print('\n\nThe gross income:', GrossInc,
+      ('\nThe number of Depedents:'), NumD, 
+      ('\nThe income tax is:'), IncomeTax)
 
 input('PRESS ENTER TO END')
