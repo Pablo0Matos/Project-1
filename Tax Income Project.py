@@ -3,7 +3,7 @@ TR = 0.20 #Tax Rate
 SD = 10000.0 #Standar Deduction
 DD = 3000.0 #Dependent Deduction 
 
-GrossInc = float(input('Enter the gross income:'))
+GrossInc = float(input('Enter the gross income: '))
 NumD = int(input('Enter the number of dependents: '))
 
 D_Deduction = DD * NumD
